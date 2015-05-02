@@ -1,7 +1,7 @@
 body {
 	margin: 0px;
 	padding: 0px;
-	font-family: 'helvetica';
+	font-family: 'Roboto', 'helvetica';
 }
 .container {
 	max-width: 960px;
@@ -10,7 +10,7 @@ body {
 header {
 	background-color: rgba(0,0,0,0.7);
 	color: #888888;
-	text-align: center;
+	text-align: right;
 	position: fixed;
 	width: 100%;
 }
@@ -29,15 +29,19 @@ nav ul li a {
 	color: #888888;
 	text-decoration: none;
 }
+nav ul li a:hover {
+	color: #eee;
+	text-decoration: none;
+}
 #one .hero {
-	background-color: #65C6bb;
+	background: url("../images/portfolio2 copy.png") no-repeat center bottom fixed;
 	-webkit-background-size: cover;
  	-moz-background-size: cover;
   	-o-background-size: cover;
   	background-size: cover;
 }
 #two .hero {
-	background: url("../images/gipsy_in_the_woods.jpg") no-repeat center bottom fixed;
+	background: url("../images/Paris_Street_Network_Segment.jpg") no-repeat center bottom fixed;
 	-webkit-background-size: cover;
  	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -49,7 +53,7 @@ nav ul li a {
  	-moz-background-size: cover;
   	-o-background-size: cover;
   	background-size: cover;
-}
+  }
 #four .hero {
 	background: url("../images/image-4.png") no-repeat center bottom fixed;
 	-webkit-background-size: cover;
@@ -58,9 +62,10 @@ nav ul li a {
   	background-size: cover;
 }
 .hero {
+
   	background-position: top;
   	color: #ffffff;
-  	text-shadow: 1px 1px 1px #000;
+ /* 	text-shadow: 1px 1px 1px #000;*/
   	padding: 200px 0px;
   	text-align: center;
   	font-size: 1.4em;
@@ -127,7 +132,7 @@ button {
 	height: 250px;
 	padding: 20px;
 	margin: 10px;
-	background: url("../images/gipsy_in_the_woods.jpg");
+	background: url("../images/blog_item1.jpg");
 	-webkit-background-size: cover;
  	-moz-background-size: cover;
   	-o-background-size: cover;
