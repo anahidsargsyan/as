@@ -111,7 +111,7 @@ nav ul li a:hover {
 	background-color: #1A1E73;
 }
 #four .section {
-	background-color: #E8AC23;
+	background-color: #808286;
 }
 button {
 	background-color: transparent;
@@ -128,7 +128,7 @@ button:hover {
 	color: #808285;
 }
 
-.portfolio {
+/*.portfolio {
 	width: 250px;
 	height: 200px;
 	padding: 20px;
@@ -136,7 +136,7 @@ button:hover {
 	display: inline-block;
 	color: white;
 	background-color: red;
-}
+}*/
 .project {
 	width: 270px;
 	height: 250px;
@@ -147,7 +147,10 @@ button:hover {
 	background-color: red;
 	position: relative;
 }
-#project1 {
+.project img{
+	max-width: 130%;
+}
+/*#project1 {
 	width: 250px;
 	height: 250px;
 	padding: 20px;
@@ -157,7 +160,7 @@ button:hover {
  	-moz-background-size: cover;
   	-o-background-size: cover;
   	background-size: cover;
-}
+}*/
 
 .image_overlay {
 	position: absolute;
@@ -169,31 +172,13 @@ button:hover {
 }
 
 .image_overlay:hover {
-	background-color: rgba(0, 0, 0, 0.7);
+	background-color: rgba(0, 0, 0, 0.5);
 	color: white;
 }
 #portfolio_description{
 	padding: 20px;
 }
-#project1:hover {
-	color: red;
-	background: rgba(0,0,0, 0.8);
-}
-#project2 {
-	width: 250px;
-	height: 200px;
-	padding: 20px;
-	margin: 10px;
-	background: url("../images/image-4.png");
-	-webkit-background-size: cover;
- 	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
-}
-#project2:hover {
-	color: red;
-	background: rgba(0,0,0, 0.8);
-}
+
 #footer{
 	background-color: #eeeeee;
 	height: 200px;
