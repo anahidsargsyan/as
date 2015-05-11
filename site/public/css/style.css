@@ -225,6 +225,33 @@ button:hover {
 .clear{
 	clear: both;
 }
+.next_project {
+	width: 300px;
+	height: 150px;
+	margin: 10px;
+	overflow: hidden;	
+	display: inline-block;
+	color: white;
+	background-color: red;
+	position: relative;
+	float: right;
+}
+.next_project img{
+	max-width: 130%;
+}
+.next_image_overlay {
+	position: absolute;
+	width: 300px;
+	height: 150px;
+	top: 0;
+	left: 0;
+	color: rgba(0, 0, 0, 0);
+}
+
+.next_image_overlay:hover {
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+}
 
 /*#footer{
 	background-color: #eeeeee;
