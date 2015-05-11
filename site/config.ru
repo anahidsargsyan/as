@@ -3,6 +3,7 @@ use Rack::Static,
   :root => "public"
 
 run lambda { |env|
+  puts env
   [
     200,
     {
