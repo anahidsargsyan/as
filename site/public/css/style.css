@@ -129,6 +129,45 @@ nav ul li a:hover {
 	margin-left: auto;
     margin-right: auto;
 }
+/*color change*/
+/*    #designDescription{
+        -webkit-animation: blink 6s infinite;
+        -moz-animation: blink 6s infinite;
+        -o-animation: blink 6s infinite;
+        -ms-animation: blink 6s infinite;
+        animation: blink 6s infinite;
+    }
+
+    @-webkit-keyframes blink {
+        0% { background: #0071BC; }
+        25% { background: #0B476F; }
+        50% { background: #6F0B5C; }
+        100% { background: #646F16; }
+    }
+    @-moz-keyframes blink {
+        0% { background: #0071BC; }
+        25% { background: #0B476F; }
+        50% { background: #6F0B5C; }
+        100% { background: #646F16; }
+    }
+    @-ms-keyframes blink {
+        0% { background: #0071BC; }
+        25% { background: #0B476F; }
+        50% { background: #6F0B5C; }
+        100% { background: #646F16; }
+    }
+    @-o-keyframes blink {
+        0% { background: #0071BC; }
+        25% { background: #0B476F; }
+        50% { background: #6F0B5C; }
+        100% { background: #646F16; }
+    }
+    @keyframes blink {
+        0% { background: #0071BC; }
+        25% { background: #0B476F; }
+        50% { background: #6F0B5C; }
+        100% { background: #646F16; }
+    }*/
 
 #one .section {
 	background-color: #4183D7;
