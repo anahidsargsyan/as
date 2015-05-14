@@ -18,5 +18,5 @@ function changeData(n) {
 	$('#designDescription').css({background: color});
 	$("#designer-title").text(text);
 	n = (n+1) % data.length;
-	setTimeout(changeData, 2000, n)
+	setTimeout(changeData, 1200, n)
 }
