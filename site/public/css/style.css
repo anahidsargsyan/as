@@ -59,7 +59,7 @@ nav ul li a:hover {
 	text-decoration: none;
 }
 #one .hero {
-	background: url("../images/Hero_one.jpg") no-repeat center bottom fixed;
+	background: url("../images/Landing image2-01-01.jpg") no-repeat center bottom fixed;
 	-webkit-background-size: cover;
  	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -116,6 +116,20 @@ nav ul li a:hover {
 	font-size: 15px;
 	margin-top: 0px;
 }
+
+#designDescription{
+	height: 200px;
+	width: 200px;
+	color: #ffffff;
+	border-radius: 100px;
+	background-color: #0071BC;
+	font-size: 50px;
+	padding-top: 1px;
+	vertical-align: center;
+	margin-left: auto;
+    margin-right: auto;
+}
+
 #one .section {
 	background-color: #4183D7;
 	height: 500px;
