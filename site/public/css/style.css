@@ -220,7 +220,7 @@ button:hover {
 	position: relative;
 }
 .project img{
-	max-width: 130%;
+	max-width: 139%;
 }
 /*#project1 {
 	width: 250px;
@@ -265,13 +265,14 @@ button:hover {
 	max-width: 100%;
 }
 .portfolio_section_right{
-	  width: 300px;
+	  width: 280px;
 	  height: 280px;
 	  margin: 10px;
 	  background: #e9e9e9;
 	  float: left;
 	  position: relative;
 	  padding-left: 20px;
+	  padding-right: 20px;
 }
 .line-separator{
 	height:1px;
@@ -283,21 +284,22 @@ button:hover {
 }
 .next_project {
 	width: 300px;
-	height: 150px;
+	height: 120px;
 	margin: 10px;
 	overflow: hidden;	
 	display: inline-block;
 	color: white;
-	background-color: red;
+	background-color: #808285;
 	position: relative;
 	float: right;
+	padding: 10px;
 }
 .next_project img{
 	max-width: 130%;
 }
 .next_image_overlay {
 	position: absolute;
-	width: 300px;
+	width: 320px;
 	height: 150px;
 	top: 0;
 	left: 0;
