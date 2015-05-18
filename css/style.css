@@ -252,8 +252,8 @@ button:hover {
 }
 /*PORTFOLIO PAGES*/
 .next_project {
-	width: 300px;
-	height: 120px;
+	width: 17%;
+	height: auto;
 	margin: 10px;
 	overflow: hidden;	
 	display: inline-block;
@@ -262,9 +262,20 @@ button:hover {
 	position: relative;
 	float: right;
 	padding: 10px;
+	border-radius: 20px;
 }
-.next_project img{
-	max-width: 130%;
+.previous_project {
+	width: 17%;
+	height: auto;
+	margin: 10px;
+	overflow: hidden;	
+	display: inline-block;
+	color: white;
+	background-color: #808285;
+	position: relative;
+	float: left;
+	padding: 10px;
+	border-radius: 20px;
 }
 .next_image_overlay {
 	position: absolute;
@@ -279,8 +290,23 @@ button:hover {
 	background-color: rgba(0, 0, 0, 0.5);
 	color: white;
 }
+
+.portfolio_header {
+	  width: 100%;
+	  height: auto;
+	  margin: 10px;
+	  background-color: white;
+	  float: left;
+	  position: relative;
+	  overflow: hidden;	
+	display: inline-block;
+	position: relative;
+}
+.portfolio_header img{
+	max-width: 100%;
+}
 .portfolio_section_left{
-	  width: 600px;
+	  width: 64%;
 	  height: auto;
 	  margin:10px;
 	  background-color: white;
@@ -304,7 +330,7 @@ button:hover {
 }
 
 .portfolio_section_right{
-	  width: 250px;
+	  width: 27%;
 	  height: 200px;
 	  margin: 10px;
 	  background: #e9e9e9;
@@ -320,4 +346,5 @@ button:hover {
 }
 .clear{
 	clear: both;
+	height: 40px;
 }
