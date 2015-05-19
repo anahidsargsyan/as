@@ -77,7 +77,6 @@ nav ul li a:hover {
 }
 
 .hero {
-
   	background-position: top;
   	color: #ffffff;
   	padding: 200px 0px;
@@ -86,13 +85,12 @@ nav ul li a:hover {
   	color: #000;
 }
 .hero2 {
-
   	background-position: top;
   	color: #ffffff;
-  	padding: 0px 0px;
+  	padding: 100px 0px;
   	text-align: center;
   	font-size: 1.4em;
-
+  	color: #000;
 }
 .hero h1 {
 	font-weight: lighter;
