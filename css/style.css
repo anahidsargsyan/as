@@ -143,7 +143,7 @@ button {
 	border-radius: 5px;
 	font-size: 14px;
 	padding: 14px 30px;
-	margin: 18px auto;
+	/*margin: 18px auto;*/
 }
 button:hover {
 	background-color: #eeeeee;
@@ -182,6 +182,67 @@ button:hover {
 #portfolio_description{
 	padding: 20px;
 }
+/*********************************************************************************/
+/* Icons                                                                         */
+/*********************************************************************************/
+
+.icon:before {
+	display: inline-block;
+	font-family: FontAwesome;
+	font-size: 1.25em;
+	text-decoration: none;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale;
+}
+
+.icon > .label {
+	display: none;
+}
+
+.icons
+{
+	text-decoration: none;
+	font-size: 1.1em;
+	text-align: left;
+}
+
+	.icons a
+	{
+		color: #41484c;
+		-moz-transition: color 0.35s ease-in-out;
+		-webkit-transition: color 0.35s ease-in-out;
+		-o-transition: color 0.35s ease-in-out;
+		-ms-transition: color 0.35s ease-in-out;
+		transition: color 0.35s ease-in-out;
+	}
+	
+		.icons a:hover
+		{
+			color: #fff;
+		}
+ul.icons
+{
+	cursor: default;
+}	
+
+	ul.icons li
+	{
+		display: inline-block;
+	}
+	
+		ul.icons a
+		{
+			display: inline-block;
+			width: 2em;
+			height: 2em;
+			line-height: 2em;
+			text-align: center;
+			border: 0;
+		}
+
 /*PORTFOLIO PAGES*/
 .next_project {
 	width: 17%;
