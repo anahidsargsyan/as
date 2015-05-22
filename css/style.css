@@ -16,6 +16,9 @@ header {
 	height: 70px;
 	z-index: 1;
 }
+p {
+	font-weight: lighter;
+}
 .center {
 	text-align: center;
 	text-decoration: none;
