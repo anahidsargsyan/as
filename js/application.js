@@ -2,7 +2,7 @@ var data = [
 	['#0071BC', 'UX'],
 	['#0B476F', 'UI'],
 	['#6F0B5C', 'Visual'],
-	['#619E53', 'Product']
+	['#F1C40F', 'Product']
 ];
 
 
