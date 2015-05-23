@@ -1,6 +1,6 @@
 var data = [
-	['#0071BC', 'UX'],
-	['#0B476F', 'UI'],
+	['#0B476F', 'UX'],
+	['#A42B44', 'UI'],
 	['#6F0B5C', 'Visual'],
 	['#F1C40F', 'Product']
 ];
@@ -18,5 +18,5 @@ function changeData(n) {
 	$('#designDescription').css({background: color});
 	$("#designer-title").text(text);
 	n = (n+1) % data.length;
-	setTimeout(changeData, 1200, n)
+	setTimeout(changeData, 1100, n)
 }
