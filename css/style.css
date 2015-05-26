@@ -387,7 +387,7 @@ ul.icons
 }
 
 /*MEDIA QUERY*/
-@media (max-width: 500px) {
+@media screen and (max-width:480px){
 	.portfolio_section_right{
 		width: 100%;
 		height: auto;
@@ -458,7 +458,6 @@ ul.icons
 	.next_project {
 		width: 20%;
 		height: auto;
-		margin: 10px;
 		overflow: hidden;	
 		display: inline-block;
 		color: white;
