@@ -455,4 +455,31 @@ ul.icons
 	h2	{
 		padding-left: 20px;
 	}
+	.next_project {
+		width: 20%;
+		height: auto;
+		margin: 10px;
+		overflow: hidden;	
+		display: inline-block;
+		color: white;
+		background-color: #808285;
+		position: relative;
+		float: right;
+		padding: 10px;
+		border-radius: 20px;
+		text-align: right;
+}
+	.previous_project {
+		width: 20%;
+		height: auto;
+		margin: 10px;
+		overflow: hidden;	
+		display: inline-block;
+		color: white;
+		background-color: #808285;
+		position: relative;
+		float: left;
+		padding: 10px;
+		border-radius: 20px;
+	}
 }
