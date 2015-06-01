@@ -465,6 +465,7 @@ ul.icons
 		position: relative;
 		float: right;
 		padding: 10px;
+		text-align: right;
 		border-radius: 20px;
 		text-align: right;
 }
